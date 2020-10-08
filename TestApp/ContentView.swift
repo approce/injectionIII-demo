@@ -1,21 +1,24 @@
-//
-//  ContentView.swift
-//  TestApp
-//
-//  Created by Roman on 08.10.2020.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var iO = injectionObserver
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Outer View")
+                    .padding()
+            InnerView()
+        }.eraseToAnyView()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+class ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+
+    @objc class func injected() {
+        UIApplication.shared.windows.first?.rootViewController =
+                UIHostingController(rootView: ContentView())
     }
 }

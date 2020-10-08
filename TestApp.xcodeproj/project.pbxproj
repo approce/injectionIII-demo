@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36EBC08FA742C7A9A7E5B2D4 /* InnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EBCC24FDAE88675592212F /* InnerView.swift */; };
+		36EBC34A8B579659C58AFF3E /* InjectIII.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC32EAB467471D3E8F413 /* InjectIII.swift */; };
+		36EBC4F1E33BBB3B882E7A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EBC41E36007B3E4571439A /* AppDelegate.swift */; };
 		CED23E9B252F10840080C6BA /* TestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED23E9A252F10840080C6BA /* TestAppApp.swift */; };
 		CED23E9D252F10840080C6BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED23E9C252F10840080C6BA /* ContentView.swift */; };
 		CED23E9F252F10870080C6BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED23E9E252F10870080C6BA /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36EBC32EAB467471D3E8F413 /* InjectIII.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InjectIII.swift; sourceTree = "<group>"; };
+		36EBC41E36007B3E4571439A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36EBCC24FDAE88675592212F /* InnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerView.swift; sourceTree = "<group>"; };
 		CED23E97252F10840080C6BA /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED23E9A252F10840080C6BA /* TestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppApp.swift; sourceTree = "<group>"; };
 		CED23E9C252F10840080C6BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +63,9 @@
 				CED23E9E252F10870080C6BA /* Assets.xcassets */,
 				CED23EA3252F10870080C6BA /* Info.plist */,
 				CED23EA0252F10870080C6BA /* Preview Content */,
+				36EBC41E36007B3E4571439A /* AppDelegate.swift */,
+				36EBC32EAB467471D3E8F413 /* InjectIII.swift */,
+				36EBCC24FDAE88675592212F /* InnerView.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			files = (
 				CED23E9D252F10840080C6BA /* ContentView.swift in Sources */,
 				CED23E9B252F10840080C6BA /* TestAppApp.swift in Sources */,
+				36EBC4F1E33BBB3B882E7A91 /* AppDelegate.swift in Sources */,
+				36EBC34A8B579659C58AFF3E /* InjectIII.swift in Sources */,
+				36EBC08FA742C7A9A7E5B2D4 /* InnerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
